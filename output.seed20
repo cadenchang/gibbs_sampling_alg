@@ -1,0 +1,114 @@
+******************** Iteration 1 ********************
+MSA given initialized starting position: 
+0: TATTTT
+1: ACACTT
+2: GCCATC
+3: TGAGCC
+4: TCATCC
+5: TAACTA
+Omitted sequence number: 3
+Full sequence: TAGCACAGGTGTGAGCCAGATTTAAAAACATCATTTAGATTAATTTCTAACAAACGCTAA
+PSSM matrix: 
+[[-0.169925    0.4150375   0.830075   -0.169925   -1.169925   -0.169925  ]
+ [-0.169925   -1.169925   -1.169925   -1.169925   -1.169925   -1.169925  ]
+ [-1.169925    0.830075   -0.169925    0.4150375  -0.169925    0.4150375 ]
+ [ 0.830075   -1.169925   -0.169925    0.4150375   1.15200309  0.4150375 ]]
+Highest window score position: 30
+Found motif is: TCATTT
+
+
+******************** Iteration 2 ********************
+MSA given initialized starting position: 
+0: TATTTT
+1: ACACTT
+2: GCCATC
+3: TCATTT
+4: TCATCC
+5: TAACTA
+Omitted sequence number: 1
+Full sequence: TGCACATCATCACACTTGGCTAATGTTTTTAATTATATTTTTTGCAGAGATGGGGGTGGG
+PSSM matrix: 
+[[-1.169925    0.4150375   0.830075   -0.169925   -1.169925   -0.169925  ]
+ [-0.169925   -1.169925   -1.169925   -1.169925   -1.169925   -1.169925  ]
+ [-1.169925    0.830075   -0.169925   -0.169925   -0.169925    0.4150375 ]
+ [ 1.15200309 -1.169925   -0.169925    0.830075    1.15200309  0.4150375 ]]
+Highest window score position: 29
+Found motif is: TAATTA
+
+
+******************** Iteration 3 ********************
+MSA given initialized starting position: 
+0: TATTTT
+1: TAATTA
+2: GCCATC
+3: TCATTT
+4: TCATCC
+5: TAACTA
+Omitted sequence number: 2
+Full sequence: GCCATCATTAGTCCTGTCTCCCCACCTGGAAGCTGTTTTTCGAACGGAGCTAACTGCCAG
+PSSM matrix: 
+[[-1.169925    0.830075    1.15200309 -1.169925   -1.169925    0.4150375 ]
+ [-1.169925   -1.169925   -1.169925   -1.169925   -1.169925   -1.169925  ]
+ [-1.169925    0.4150375  -1.169925   -0.169925   -0.169925   -0.169925  ]
+ [ 1.4150375  -1.169925   -0.169925    1.15200309  1.15200309  0.4150375 ]]
+Highest window score position: 4
+Found motif is: TCATTA
+
+
+******************** Iteration 4 ********************
+MSA given initialized starting position: 
+0: TATTTT
+1: TAATTA
+2: TCATTA
+3: TCATTT
+4: TCATCC
+5: TAACTA
+Omitted sequence number: 3
+Full sequence: TAGCACAGGTGTGAGCCAGATTTAAAAACATCATTTAGATTAATTTCTAACAAACGCTAA
+PSSM matrix: 
+[[-1.169925    0.830075    1.15200309 -1.169925   -1.169925    0.830075  ]
+ [-1.169925   -1.169925   -1.169925   -1.169925   -1.169925   -1.169925  ]
+ [-1.169925    0.4150375  -1.169925   -0.169925   -0.169925   -0.169925  ]
+ [ 1.4150375  -1.169925   -0.169925    1.15200309  1.15200309 -0.169925  ]]
+Highest window score position: 40
+Found motif is: TAATTT
+
+
+******************** Iteration 5 ********************
+MSA given initialized starting position: 
+0: TATTTT
+1: TAATTA
+2: TCATTA
+3: TAATTT
+4: TCATCC
+5: TAACTA
+Omitted sequence number: 0
+Full sequence: TTATAATTACTCACACAACTACATATGCTTAATGTTCATCATTATGTATATTTTATAATT
+PSSM matrix: 
+[[-1.169925    0.830075    1.4150375  -1.169925   -1.169925    0.830075  ]
+ [-1.169925   -1.169925   -1.169925   -1.169925   -1.169925   -1.169925  ]
+ [-1.169925    0.4150375  -1.169925   -0.169925   -0.169925   -0.169925  ]
+ [ 1.4150375  -1.169925   -1.169925    1.15200309  1.15200309 -0.169925  ]]
+Highest window score position: 3
+Found motif is: TAATTA
+
+
+******************** Iteration 6 ********************
+MSA given initialized starting position: 
+0: TAATTA
+1: TAATTA
+2: TCATTA
+3: TAATTT
+4: TCATCC
+5: TAACTA
+Omitted sequence number: 3
+Full sequence: TAGCACAGGTGTGAGCCAGATTTAAAAACATCATTTAGATTAATTTCTAACAAACGCTAA
+PSSM matrix: 
+[[-1.169925    0.830075    1.4150375  -1.169925   -1.169925    1.15200309]
+ [-1.169925   -1.169925   -1.169925   -1.169925   -1.169925   -1.169925  ]
+ [-1.169925    0.4150375  -1.169925   -0.169925   -0.169925   -0.169925  ]
+ [ 1.4150375  -1.169925   -1.169925    1.15200309  1.15200309 -1.169925  ]]
+Highest window score position: 40
+Found motif is: TAATTT
+
+Position 40 already found in seq 3
